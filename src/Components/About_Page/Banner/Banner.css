@@ -1,0 +1,38 @@
+.banner {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../../../assets/images/Banner.svg);
+}
+
+.about-us-box {
+    border: 2px solid white;
+    padding: 100px 40px 100px 400px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    background: rgba(3, 3, 3, 0.4);
+    transform: translate(-5%, 150%);
+    transition: 0.5s ease-in-out;
+}
+
+.about-us-box:hover {
+    transform: translate(-5%, 100%);
+}
+
+.banner_content {
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    text-align: start;
+    color: white;
+}
+
+.about-us-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
