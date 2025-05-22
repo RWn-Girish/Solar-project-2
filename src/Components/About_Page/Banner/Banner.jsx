@@ -3,8 +3,9 @@ import "../Banner/Banner.css";
 import bgImage from "../../../assets/images/Banner.svg";
 import sunimg from "../../../assets/images/sun.svg";
 import whyimg from "../../../assets/images/whyImage.png";
+import Banner_card from './Banner_card';
 
-function Banner() {
+function Banner(props) {
     return (
         <>
             <div className="banner" style={{ backgroundImage: `url(${bgImage})` }}>
@@ -36,6 +37,12 @@ function Banner() {
                             </div>
                         </div>
                     </div>
+                </Container>
+            </div>
+
+            <div className='Card' style={{ backgroundImage: `url(${bgImage})` }}>
+                <Container>
+                    <Banner_card tital="Vision"/>
                 </Container>
             </div>
         </>
