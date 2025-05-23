@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import "../Banner/Banner.css";
-import bgImage from "../../../assets/images/Banner.svg";
+import bgImage from "../../../assets/images/banner_image.jpg";
 import sunimg from "../../../assets/images/sun.svg";
 import whyimg from "../../../assets/images/whyImage.png";
 import Banner_card from './Banner_card';
@@ -32,7 +32,7 @@ function Banner() {
     ])
     return (
         <>
-            <div className="banner" style={{ backgroundImage: `url(${bgImage})` }}>
+            <div className="banner" style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' }}>
                 <div className="about-us-box">
                     <Container>
                         <div className="banner_content">
