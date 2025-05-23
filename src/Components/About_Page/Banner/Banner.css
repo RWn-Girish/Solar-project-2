@@ -2,6 +2,7 @@
     height: 70vh;
     width: 100%;
     background-size: cover;
+    position: relative;
 }
 
 .about-us-box {
@@ -13,8 +14,9 @@
     font-weight: bold;
     font-size: 70px;
     text-transform: uppercase;
+    position: absolute;
+    bottom: 100px;
     background: rgba(3, 3, 3, 0.4);
-    transform: translate(-5%, 150%);
     transition: 0.5s ease-in-out;
 }
 
@@ -24,7 +26,7 @@
     font-size: 20px;
     font-weight: 500;
     max-width: 700px;
-    color: #333;
+    /* color: #333; */
     margin: 0 auto;
     letter-spacing: 0.3px;
 }

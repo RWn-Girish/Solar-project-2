@@ -1,16 +1,27 @@
 .banner_card{
     border: 2px solid #fff;
     border-radius: 10px;
-    background-color: #7e7e7e;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     
 }
 
 .banner_card h2{
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 20px;
-    text-align: center;
+}
+
+.card_text{
+    color: #fff;
+    font-size: 38px;
+}
+.card_text h2{
+    color: #fff;
+    font-size: 38px;
+    padding-left: 20px;
+    /* margin-bottom: 15px; */
 }
 
 .banner_card p{
