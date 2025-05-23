@@ -4,6 +4,9 @@
     z-index: 1;
 }
 
+.navbar{
+    padding: 0 !important;
+}
 
 .navbar-toggler-icons{
     color: #FFF6BB !important;
