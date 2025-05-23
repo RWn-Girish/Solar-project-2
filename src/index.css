@@ -1,18 +1,9 @@
-/* :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --secondary-color: #FFF6BB;
+    --primary-color: #5F6064;
 }
 
+/* 
 a {
   font-weight: 500;
   color: #646cff;
@@ -68,9 +59,13 @@ button:focus-visible {
 } */
 
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3,h4,h5 {
-  font-family: 'Oswald', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', sans-serif;
 }
