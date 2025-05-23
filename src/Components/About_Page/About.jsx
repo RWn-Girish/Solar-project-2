@@ -1,5 +1,6 @@
 import Banner from "./Banner/Banner";
 import Our_services from "./Our_services/Our_services";
+import Our_history from "./Our_history/Our_history";
 
 
 function About() {
@@ -7,6 +8,7 @@ function About() {
         <>
             <Banner />
             <Our_services />
+            <Our_history />
         </>
     )
 }
