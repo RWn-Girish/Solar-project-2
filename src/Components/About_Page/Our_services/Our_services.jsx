@@ -4,9 +4,7 @@ function Our_services() {
     return (
         <>
             <div className="our_services">
-
-
-
+                
             </div>
         </>
     )
