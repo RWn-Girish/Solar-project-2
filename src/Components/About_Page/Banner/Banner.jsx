@@ -6,6 +6,8 @@ import whyimg from "../../../assets/images/whyImage.png";
 import Banner_card from './Banner_card';
 import bgvision from "../../../assets/images/bgvision.png"
 import { FaBinoculars } from "react-icons/fa";
+import { GiStairsGoal } from "react-icons/gi";
+import { BsShieldCheck } from 'react-icons/bs';
 import { useState } from 'react';
 
 
@@ -18,12 +20,12 @@ function Banner() {
         },
         {
             title: "Mission",
-            image: <FaBinoculars />,
+            image: <GiStairsGoal />,
             description: "To provide intelligent energy solutions with  simplicity simplicity."
         },
         {
             title: "Core Values",
-            image: <FaBinoculars />,
+            image: <BsShieldCheck />,
             description: "Driven by sustainability, integrity, and innovation."
         },
 
