@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import "../Banner/Banner.css";
 import bgImage from "../../../assets/images/Banner.svg";
 import sunimg from "../../../assets/images/sun.svg";
@@ -14,12 +14,12 @@ function Banner() {
         {
             title: "Vision",
             image: <FaBinoculars />,
-            description: "To develop innovations in the development of renewable energy across Africa and the Globe."
+            description: "To develop innovations in the development of renewable energy."
         },
         {
             title: "Mission",
             image: <FaBinoculars />,
-            description: "To provide intelligent energy solutions with simplicity."
+            description: "To provide intelligent energy solutions with  simplicity simplicity."
         },
         {
             title: "Core Values",
@@ -55,7 +55,7 @@ function Banner() {
                             </p>
                         </div>
                         <div className="col-md-6">
-                            <div className="text-center">
+                            <div className="text-end">
                                 <img src={whyimg} alt="Why Us" className="img-fluid rounded" />
                             </div>
                         </div>
@@ -64,21 +64,20 @@ function Banner() {
             </div>
 
             <div className='card-section py-5' style={{ backgroundImage: `url(${bgvision})`, backgroundSize: 'cover' }}>
-                <Container className='d-flex justify-content-space-between gap-4'>                    {
-                    data.map((item, index) => {
-                        return (
-                            <div className="col-md-4 mb-4" key={index}>
+                <Container>
+                    <Row className="g-4">
+                        {data.map((item, index) => (
+                            <Col key={index} md={6} lg={4}>
                                 <Banner_card
                                     title={item.title}
                                     image={item.image}
                                     description={item.description}
                                 />
-                            </div>
-                        )
-                    })
-                }
+                            </Col>
+                        ))}
+                    </Row>
                 </Container>
-            </div>
+            </div >
         </>
     );
 }
