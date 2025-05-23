@@ -1,6 +1,7 @@
 
 .header-wrapper{
-    top: 50px;
+    top: 30px;
+    z-index: 1;
 }
 
 
