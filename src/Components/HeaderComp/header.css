@@ -1,0 +1,34 @@
+
+.header-wrapper{
+    top: 50px;
+}
+
+
+.navbar-toggler-icons{
+    color: #FFF6BB !important;
+}
+.navbar-toggler {
+    border:  none;
+    font-size: 35px;
+}
+
+.offcanvas{
+    color: #FFF6BB;
+    background-color:  #5F6064;
+}
+
+.btn-close{
+    color: #FFF6BB !important;
+}
+
+.header-btn{
+    border: 2px solid #FFF6BB ;
+    background-color: transparent !important;
+    color: #FFF6BB !important;
+}
+
+.header-btn:hover{
+    background-color: #FFF6BB !important;
+    color: #5F6064 !important;
+    border: #5F6064 solid 2px !important;
+}

@@ -1,12 +1,17 @@
+import { Route, Routes } from 'react-router';
 import './App.css'
 import About from './Components/About_Page/About'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/HeaderComp/Header';
 
 function App() {
 
   return (
     <>
-       <About />
+        <Header/>
+       <Routes>
+             <Route path='/' element={<About/>}/>
+       </Routes>
     </>
   )
 }
