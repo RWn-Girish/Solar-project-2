@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServiveCard = (title , image) => {
+const ProjectCard = (title , image) => {
     return (
         <>
             <div className="cardBody">

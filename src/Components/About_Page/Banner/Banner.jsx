@@ -32,11 +32,11 @@ function Banner() {
     ])
     return (
         <>
-            <div className="banner" style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' }}>
+            <div className="about-banner" style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' }}>
                 <div className="about-us-box">
                     <Container>
                         <div className="banner_content">
-                            <h1>ABOUT<br />US</h1>
+                            <h1>ABOUT US</h1>
                         </div>
                     </Container>
                 </div>
