@@ -1,5 +1,5 @@
 .our_services {
-    margin: 150px 0px 0px 0px;
+    margin: 150px 0px 
 }
 .bg-tras{
     background-color: transparent;
@@ -18,36 +18,41 @@
 
 .our_services p {
     color: #2a2a2a;
-    margin-bottom: 150px;
+    margin: 0 ;
 }
 
 .our_services h2 span {
     color: var(--secondary-color);
 }
 
-.service-card {
-    position: relative;
-    overflow: hidden;
+.ourService-card{
     transition: transform 0.3s ease;
-    cursor: pointer;
-    text-align: center;
+    background-color: #17223a;
+    color: #cad9e8;
 }
 
-.service-card img {
+.ourService-card img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.service-title {
-    position: absolute;
-    bottom: 10px;
-    left: 25px;
-    color: white;
-    font-size: 35px;
+.ourService-card{
+    color: var(--secondary-color);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    padding: 25px 0;
+    margin:  0 5px;
 }
-
-.service-card:hover {
+.ourService-card h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+.ourService-card:hover {
     transform: scale(1.03);
+}
+.ourService-card h5{
+    color: #cad9e8;
+    opacity:  0.7;
+    font-weight: 300;
+    display: inline-block;
 }
