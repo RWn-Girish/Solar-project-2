@@ -35,7 +35,7 @@ function Header() {
                  <Nav.Link href="#action2">Pakages</Nav.Link>
                  <Nav.Link href="#action2">Our Projects</Nav.Link>
                  <Nav.Link href="#action2">Blog</Nav.Link>
-                 <Button className="header-btn">Contact Us</Button>
+                 <Button className="bTn">Contact Us</Button>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

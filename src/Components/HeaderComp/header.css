@@ -12,7 +12,7 @@
     color: var(--secondery-color);
 }
 .navigationTabs a:hover{
-    color:  #bbd0ff;
+    color:  #f7d600;
     text-shadow: 0px 2px  5px  #FFF6BB ;
 } 
 .navbar{
@@ -36,14 +36,3 @@
     color: #FFF6BB !important;
 }
 
-.header-btn{
-    border: 2px solid #FFF6BB ;
-    background-color: transparent !important;
-    color: #FFF6BB !important;
-}
-
-.header-btn:hover{
-    background-color: #FFF6BB !important;
-    color: #5F6064 !important;
-    border: #5F6064 solid 2px !important;
-}
