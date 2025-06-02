@@ -11,10 +11,10 @@ import "./header.css";
 function Header() {
     return (
         <>
-            <div className="container ">
+            <div className="container header">
                 {['md'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="mb-3">
-          <Container fluid>
+        <Navbar key={expand} expand={expand}>
+          <Container   className='position-absolute header-wrapper'>
             <Navbar.Brand href="#"><img src={logo} alt="" /></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -28,14 +28,14 @@ function Header() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="navigationTabs justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#action1">Home</Nav.Link>
-                 <Nav.Link href="#action2">About Us</Nav.Link>
-                 <Nav.Link href="#action2">Services</Nav.Link>
+                 <Nav.Link href="/">About Us</Nav.Link>
+                 <Nav.Link href="/service">Services</Nav.Link>
                  <Nav.Link href="#action2">Pakages</Nav.Link>
                  <Nav.Link href="#action2">Our Projects</Nav.Link>
                  <Nav.Link href="#action2">Blog</Nav.Link>
-                 <Button className="header-btn">Contact Us</Button>
+                 <Button className="bTn">Contact Us</Button>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
