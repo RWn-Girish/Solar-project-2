@@ -1,9 +1,13 @@
-.about-banner{
+.about-banner {
     height: 90vh;
     width: 100%;
+    background-image: url('../../../assets/images/banner_image.jpg');
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
+
 .about-banner::before {
     content: "";
     position: absolute;
@@ -13,6 +17,7 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
+
 .about-us-box {
     border: 2px solid white;
     padding: 100px 40px 100px 400px;
@@ -28,6 +33,14 @@
     transition: 0.5s ease-in-out;
 }
 
+.banner_content {
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    text-align: start;
+    color: white;
+}
+
 .about_p_text {
     text-align: justify;
     line-height: 1.8;
@@ -36,14 +49,6 @@
     max-width: 700px;
     margin: 0 auto;
     letter-spacing: 0.3px;
-}
-
-.banner_content {
-    position: absolute;
-    top: 50%;
-    transform: translate(-90%, -50%);
-    text-align: start;
-    color: white;
 }
 
 .about-us-text h1 {
@@ -59,4 +64,25 @@
 
 .about-us p {
     line-height: 1.6;
+}
+
+.card-section {
+    background-image: url('../../../assets/images/banner_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-align: center;
 }

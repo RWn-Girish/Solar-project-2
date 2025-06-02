@@ -1,18 +1,15 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import "../Banner/Banner.css";
-import bgImage from "../../../assets/images/banner_image.jpg";
 import sunimg from "../../../assets/images/sun.svg";
 import whyimg from "../../../assets/images/whyImage.png";
 import Banner_card from './Banner_card';
-import bgvision from "../../../assets/images/bgvision.png"
 import { FaBinoculars } from "react-icons/fa";
 import { GiStairsGoal } from "react-icons/gi";
 import { BsShieldCheck } from 'react-icons/bs';
 import { useState } from 'react';
 
-
 function Banner() {
-    const [data, setData] = useState([
+    const [data] = useState([
         {
             title: "Vision",
             image: <FaBinoculars />,
@@ -21,18 +18,18 @@ function Banner() {
         {
             title: "Mission",
             image: <GiStairsGoal />,
-            description: "To provide intelligent energy solutions with  simplicity simplicity."
+            description: "To provide intelligent energy solutions with simplicity."
         },
         {
             title: "Core Values",
             image: <BsShieldCheck />,
             description: "Driven by sustainability, integrity, and innovation."
         },
+    ]);
 
-    ])
     return (
         <>
-            <div className="about-banner" style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' }}>
+            <div className="about-banner">
                 <div className="about-us-box">
                     <Container>
                         <div className="banner_content">
@@ -65,7 +62,7 @@ function Banner() {
                 </Container>
             </div>
 
-            <div className='card-section py-5' style={{ backgroundImage: `url(${bgvision})`, backgroundSize: 'cover' }}>
+            <div className='card-section py-5'>
                 <Container>
                     <Row className="g-4">
                         {data.map((item, index) => (
@@ -79,7 +76,7 @@ function Banner() {
                         ))}
                     </Row>
                 </Container>
-            </div >
+            </div>
         </>
     );
 }

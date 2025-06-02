@@ -1,9 +1,9 @@
-.servicebanwrapper{
-    height:  90vh;
+.servicebanwrapper {
+    height: 90vh;
     position: relative;
 }
 
-.service-banner{
+.service-banner {
     border: 2px solid white;
     padding: 50px 40px 50px 400px;
     border-radius: 10px;
@@ -19,12 +19,13 @@
 }
 
 .services-heading {
-        position: absolute;
-        top: 50%;
-        transform: translate(-90%, -50%);
-        text-align: start;
-        color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    text-align: start;
+    color: white;
 }
-.services-heading h1{
+
+.services-heading h1 {
     font-size: 50px;
 }
