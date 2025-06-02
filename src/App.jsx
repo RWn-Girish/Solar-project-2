@@ -7,15 +7,15 @@ import ServiceComp from './Components/Service_Page/ServiceComp';
 
 function App() {
 
-  return (
-    <>
-        <Header/>
-       <Routes>
-             <Route path='/' element={<About/>}/>
-             <Route path='/service' element={<ServiceComp/>}/>
-       </Routes>
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <Routes>
+                <Route path='/about' element={<About />} />
+                <Route path='/service' element={<ServiceComp />} />
+            </Routes>
+        </>
+    )
 }
 
 export default App
