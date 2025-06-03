@@ -6,14 +6,14 @@ import OurProcess from "./ourProcess/ourProcess";
 import DiscoverComp from "./discoverPower/discoverComp";
 
 const ServiceComp = () => {
-    return(
+    return (
         <>
-           <div className="service-bg">
-           <ServiceBanner/>
-           <OurService/>
-           <OurProcess/>
-           <DiscoverComp/>
-           </div>
+            <div className="service-bg">
+                <ServiceBanner />
+                <OurService />
+                <OurProcess />
+                <DiscoverComp />
+            </div>
         </>
     )
 }

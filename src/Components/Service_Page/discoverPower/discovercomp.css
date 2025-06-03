@@ -1,13 +1,15 @@
-.discover-content{
+.discover-content {
     color: white;
     position: relative;
-    margin: 100px  0;
+    margin: 100px 0;
 }
-.discover{
+
+.discover {
     background-color: transparent;
 }
-.discover-content{
-    padding:  100px ;
+
+.discover-content {
+    padding: 100px;
     border-radius: 15px;
     background-image: url(../../../assets/images/discoverBG.jpg);
     background-position: center;
@@ -15,7 +17,8 @@
     background-size: cover;
     z-index: -1;
 }
-.discover-content::before{
+
+.discover-content::before {
     content: "";
     border-radius: 15px;
     position: absolute;
@@ -26,6 +29,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
-.discover-wrapper{
-    z-index:  10000000000;
+
+.discover-wrapper {
+    z-index: 10000000000;
 }

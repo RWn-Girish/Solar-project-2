@@ -1,12 +1,13 @@
-.service-bg{
+.service-bg {
     height: 100vh;
     width: 100%;
     background-image: url("../../assets/images/service-bg.png");
     background-attachment: fixed;
     background-size: cover;
     /* position: fixed; */
-    z-index:  -1;
+    z-index: -1;
 }
+
 .service-bg::before {
     content: "";
     position: absolute;

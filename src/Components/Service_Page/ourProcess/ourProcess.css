@@ -1,11 +1,11 @@
-.mt-15{
+.mt-15 {
     margin-top: 150px;
 }
 
 
-.ourProcess{
-    background-color:  transparent;
-    padding : 128px 0;
+.ourProcess {
+    background-color: transparent;
+    padding: 128px 0;
     background-image: url(../../../assets/images/service-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
     margin-top: 100px;
 }
 
-.ourProcess::before{
+.ourProcess::before {
     content: "";
     position: absolute;
     top: 0;
@@ -27,19 +27,21 @@
     z-index: -1;
 }
 
-.ourProcess-heading h1{
+.ourProcess-heading h1 {
     color: white;
-    font-size:  60px !important  ;
-}
-.ourProcess-heading p{
-    color:  #cad9e8;
+    font-size: 60px !important;
 }
 
-.ourProcess-carda{
+.ourProcess-heading p {
+    color: #cad9e8;
+}
+
+.ourProcess-carda {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.ourProcess-card{
+
+.ourProcess-card {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px;
@@ -48,19 +50,23 @@
     display: flex;
     flex-direction: column;
 }
-.ourProcess-card:hover{
+
+.ourProcess-card:hover {
     background-color: var(--secondary-color);
     color: black;
 }
-.ourProcess-card:hover h5{
+
+.ourProcess-card:hover h5 {
     color: var(--primary-color);
     transition: 0.5s ease-in-out;
 }
-.ourProcess-card h5{
+
+.ourProcess-card h5 {
     display: inline;
     font-size: 190px;
     color: var(--secondary-color);
 }
-.ourProcess-card h3{
+
+.ourProcess-card h3 {
     color: #cad9e8;
 }
