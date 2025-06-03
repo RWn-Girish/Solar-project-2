@@ -3,7 +3,6 @@
     border-radius: 10px;
     background-color: transparent;
     backdrop-filter: blur(10px);
-
 }
 
 .banner_card h2 {
@@ -15,8 +14,7 @@
 
 .card_text {
     color: #fff;
-    font-size: 38px;
-    align-items: center;
+    font-size: 70px;
 }
 
 .card_text h2 {
@@ -29,6 +27,5 @@
     font-size: 18px;
     font-weight: 400;
     color: #fff;
-    text-align: center;
     margin-bottom: 20px;
 }
