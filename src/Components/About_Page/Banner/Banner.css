@@ -23,7 +23,7 @@
     padding: 50px 40px 50px 400px;
     border-radius: 10px;
     display: inline-block;
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
     font-size: 70px;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     top: 50%;
     transform: translate(-90%, -50%);
     text-align: start;
-    color: white;
+    color: var(--white-color);
 }
 
 .about_p_text {
@@ -83,6 +83,6 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: white;
+    color: var(--white-color);
     text-align: center;
 }

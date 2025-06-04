@@ -1,5 +1,5 @@
 .discover-content {
-    color: white;
+    color: var(--white-color);
     position: relative;
     margin: 100px 0;
 }

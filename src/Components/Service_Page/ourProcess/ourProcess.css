@@ -27,7 +27,7 @@
 }
 
 .ourProcess-heading h1 {
-    color: white;
+    color: var(--white-color);
     font-size: 60px !important;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .ourProcess-card {
-    color: white;
+    color: var(--white-color);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px;
     border-radius: 10px;
@@ -52,7 +52,7 @@
 
 .ourProcess-card:hover {
     background-color: var(--secondary-color);
-    color: black;
+    color: var(--black-color);
 }
 
 .ourProcess-card:hover h5 {

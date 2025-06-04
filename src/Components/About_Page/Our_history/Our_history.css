@@ -1,7 +1,7 @@
 .Our_history h2 {
     font-size: 60px;
     font-weight: 700;
-    color: #000000;
+    color: var(--black-color);
     padding: 0;
     margin: 30px 0px 30px 0px;
 }
