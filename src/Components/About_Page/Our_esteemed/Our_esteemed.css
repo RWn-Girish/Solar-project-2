@@ -1,0 +1,8 @@
+.Our_esteemed h1 {
+    font-size: 60px;
+}
+
+.Our_esteemed span {
+    font-size: 60px;
+    color: var(--secondary-color);
+}

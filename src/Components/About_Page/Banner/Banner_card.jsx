@@ -6,8 +6,8 @@ function Banner_card({ title, image, description }) {
             <div className="card_text d-flex justify-content-center p-3">
                 {image}
             </div>
-                <h2 className="fw-bold m-0">{title}</h2>
-            <p>{description}</p>
+            <h2 className="fw-bold m-2">{title}</h2>
+            <p className="m-0">{description}</p>
         </div>
     );
 }
