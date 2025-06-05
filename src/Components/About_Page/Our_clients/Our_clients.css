@@ -1,0 +1,67 @@
+.clients-wrapper {
+    margin: 60px auto;
+    padding: 0 20px;
+    max-width: 900px;
+}
+
+.clients-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0b1930;
+    margin-bottom: 40px;
+}
+
+.highlight-underline {
+    display: inline-block;
+    border-bottom: 4px solid #f9e832;
+    padding-bottom: 4px;
+    margin-right: 10px;
+}
+
+.clients-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    min-height: 280px;
+    text-align: left;
+}
+
+.stars span {
+    color: #f9e832;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.clients-text {
+    font-style: italic;
+    color: #45576e;
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+.client-name {
+    font-weight: 700;
+    color: #0b1930;
+    margin: 0;
+}
+
+.client-title {
+    color: #ff5722;
+    font-size: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    border: 2px solid #ff5722;
+    color: #ff5722;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
