@@ -52,16 +52,60 @@
     font-size: 15px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: transparent;
+/* Custom navigation and dots wrapper */
+.clients-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Custom red arrow buttons */
+.custom-nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.custom-nav-buttons button {
+    background-color: white;
     border: 2px solid #ff5722;
     color: #ff5722;
     border-radius: 50%;
-    padding: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 5%;
+.custom-nav-buttons button:hover {
+    background-color: #ff5722;
+    color: white;
+}
+
+/* Custom dots */
+.carousel-indicators-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.dot.active {
+    width: 20px;
+    background-color: #ff5722;
+    border-radius: 8px;
 }
