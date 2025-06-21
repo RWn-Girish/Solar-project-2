@@ -1,4 +1,4 @@
-import "../Our_esteemed/Our_esteemed.css"
+import "../Our_esteemed/Our_esteemed.css";
 import { Container } from "react-bootstrap";
 import Esteemed1 from "../../../assets/images/Esteemed1.png"
 import Esteemed2 from "../../../assets/images/Esteemed2.png"
@@ -20,37 +20,32 @@ import Esteemed18 from "../../../assets/images/Esteemed18.png"
 import Esteemed19 from "../../../assets/images/Esteemed19.png"
 import Esteemed20 from "../../../assets/images/Esteemed20.png"
 
+const logos = [
+    Esteemed1, Esteemed2, Esteemed3, Esteemed4, Esteemed5, Esteemed6, Esteemed7,
+    Esteemed8, Esteemed9, Esteemed10, Esteemed11, Esteemed12,
+    Esteemed14, Esteemed15, Esteemed16, Esteemed17, Esteemed18, Esteemed19, Esteemed20
+];
+
 function Our_esteemed() {
     return (
-        <>
-            <Container>
-                <div className="Our_esteemed d-flax gap-5">
-                    <h1>Our <span>Esteemed Clients and Partners</span><br />through the Years.</h1>
-                    <div className="row mt-5 mb-5 d-flex gap-5">
-                        <div className="col-2"><img src={Esteemed1} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed2} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed3} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed4} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed5} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed6} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed7} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed8} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed9} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed10} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed11} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed12} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed12} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed14} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed15} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed16} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed17} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed18} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed19} alt="" /></div>
-                        <div className="col-2"><img src={Esteemed20} alt="" /></div>
+        <Container>
+            <div className="Our_esteemed">
+                <h1>
+                    Our <span>Esteemed Clients and Partners</span><br />
+                    through the Years.
+                </h1>
+
+                <div className="logo-slider">
+                    <div className="logo-track">
+                        {[...logos, ...logos].map((logo, index) => (
+                            <div className="logo-item" key={index}>
+                                <img src={logo} alt={`Esteemed ${index}`} />
+                            </div>
+                        ))}
                     </div>
-                </div >
-            </Container>
-        </>
+                </div>
+            </div>
+        </Container>
     )
 }
 
