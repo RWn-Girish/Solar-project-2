@@ -4,6 +4,7 @@ import About from './Components/About_Page/About'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/HeaderComp/Header';
 import ServiceComp from './Components/Service_Page/ServiceComp';
+import FooterComp from './Components/FooterComp/FooterComp';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
                 <Route path='/' element={<About />} />
                 <Route path='/service' element={<ServiceComp />} />
             </Routes>
+            <FooterComp />
         </>
     )
 }

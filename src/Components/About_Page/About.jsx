@@ -15,7 +15,7 @@ function About() {
             <Our_clients />
             <End_energy />
             <Recent_Articles />
-            <FooterComp />
+            {/* <FooterComp /> */}
         </>
     )
 }
