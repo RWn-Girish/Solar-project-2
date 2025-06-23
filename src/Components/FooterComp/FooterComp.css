@@ -14,7 +14,7 @@
 }
 
 .footer-col h4 {
-    color: #f9e832;
+    color: var(--secondary-color);
     margin-bottom: 25px;
     font-size: 20px;
     font-weight: 600;
@@ -35,7 +35,7 @@
 .footer-logo h3 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #f9e832;
+    color: var(--secondary-color);
     font-weight: 700;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .footer-links a:hover {
-    color: #f9e832;
+    color: var(--secondary-color);
     padding-left: 5px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .contact-icon {
-    color: #f9e832;
+    color: var(--secondary-color);
     margin-right: 15px;
     margin-top: 5px;
     font-size: 18px;
@@ -103,7 +103,7 @@
 }
 
 .social-icons a:hover {
-    background-color: #f9e832;
+    background-color: var(--secondary-color);
     color: #000;
     transform: translateY(-3px);
 }

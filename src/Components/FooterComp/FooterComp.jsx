@@ -1,5 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router';
+import logo from '../../assets/images/logo.png';
 import './FooterComp.css';
 
 function FooterComp() {
@@ -9,7 +11,7 @@ function FooterComp() {
                 <Row className="footer-content">
                     <Col lg={4} md={6} className="footer-col">
                         <div className="footer-logo">
-                            <h3>SolarSolutions</h3>
+                            <Link><img src={logo} alt="" /></Link>
                         </div>
                         <p className="footer-about">
                             Providing sustainable energy solutions to power your future with clean, reliable solar technology.
@@ -25,9 +27,9 @@ function FooterComp() {
                     <Col lg={2} md={6} className="footer-col">
                         <h4>Quick Links</h4>
                         <ul className="footer-links">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">About Us</a></li>
+                            <li><a href="/service">Services</a></li>
                             <li><a href="#">Projects</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
