@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/HeaderComp/Header';
 import ServiceComp from './Components/Service_Page/ServiceComp';
 import FooterComp from './Components/FooterComp/FooterComp';
+import Blog_Page from './Components/Blog_Page/Blog_Page';
+import Not_found from './Components/Notfound_page/Notfound_page';
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
             <Routes>
                 <Route path='/' element={<About />} />
                 <Route path='/service' element={<ServiceComp />} />
+                <Route path='/blog' element={<Blog_Page />} />
+                <Route path='/*' element={<Not_found />} />
             </Routes>
             <FooterComp />
         </>

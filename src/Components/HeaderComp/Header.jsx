@@ -15,7 +15,7 @@ function Header() {
                 {['md'].map((expand) => (
                     <Navbar key={expand} expand={expand}>
                         <Container className='position-absolute header-wrapper'>
-                            <Navbar.Brand href="#"><img src={logo} alt="" /></Navbar.Brand>
+                            <Navbar.Brand href="/"><img src={logo} alt="" /></Navbar.Brand>
                             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                             <Navbar.Offcanvas
                                 id={`offcanvasNavbar-expand-${expand}`}
@@ -34,7 +34,7 @@ function Header() {
                                         <Nav.Link href="/service">Services</Nav.Link>
                                         <Nav.Link href="#action2">Pakages</Nav.Link>
                                         <Nav.Link href="#action2">Our Projects</Nav.Link>
-                                        <Nav.Link href="#action2">Blog</Nav.Link>
+                                        <Nav.Link href="/blog">Blog</Nav.Link>
                                         <Button className="bTn">Contact Us</Button>
                                     </Nav>
                                 </Offcanvas.Body>

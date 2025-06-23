@@ -11,7 +11,7 @@ function FooterComp() {
                 <Row className="footer-content">
                     <Col lg={4} md={6} className="footer-col">
                         <div className="footer-logo">
-                            <Link><img src={logo} alt="" /></Link>
+                            <Link to={"/"}><img src={logo} alt="" /></Link>
                         </div>
                         <p className="footer-about">
                             Providing sustainable energy solutions to power your future with clean, reliable solar technology.

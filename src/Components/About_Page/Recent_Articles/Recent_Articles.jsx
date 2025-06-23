@@ -12,11 +12,11 @@ function Recent_Articles() {
                 </div>
                 <Row>
                     <Col xs={12} md={6} lg={4}>
-                        <div className="blog">
+                        <div className="blog_home">
                             <div className="blog_img">
                                 <img src={blog1} alt="" />
                             </div>
-                            <div className="blog_content ps-2">
+                            <div className="blog_content_home ps-2">
                                 <span>June 15, 2023</span>
                                 <h4>Solar Energy Benefits for Homeowners</h4>
                                 <p>Discover how solar energy can reduce your electricity bills
@@ -25,11 +25,11 @@ function Recent_Articles() {
                         </div>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <div className="blog">
+                        <div className="blog_home">
                             <div className="blog_img">
                                 <img src={blog1} alt="" />
                             </div>
-                            <div className="blog_content ps-2">
+                            <div className="blog_content_home ps-2">
                                 <span>June 15, 2023</span>
                                 <h4>Solar Energy Benefits for Homeowners</h4>
                                 <p>Discover how solar energy can reduce your electricity bills
@@ -38,11 +38,11 @@ function Recent_Articles() {
                         </div>
                     </Col>
                     <Col xs={12} md={6} lg={4}>
-                        <div className="blog">
+                        <div className="blog_home">
                             <div className="blog_img">
                                 <img src={blog1} alt="" />
                             </div>
-                            <div className="blog_content ps-2">
+                            <div className="blog_content_home ps-2">
                                 <span>June 15, 2023</span>
                                 <h4>Solar Energy Benefits for Homeowners</h4>
                                 <p>Discover how solar energy can reduce your electricity bills
