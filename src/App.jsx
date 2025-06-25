@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router';
+import { data, Route, Routes } from 'react-router';
 import './App.css'
 import About from './Components/About_Page/About'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,6 +8,7 @@ import FooterComp from './Components/FooterComp/FooterComp';
 import Blog_Page from './Components/Blog_Page/Blog_Page';
 import Not_found from './Components/Notfound_page/Notfound_page';
 import Contact_page from './Components/Contact_page/Contact_page';
+// import Blog_detail from './Components/Blog_Page/Blog_Card/Blog_detail/Blog_detail';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                 <Route path='/' element={<About />} />
                 <Route path='/service' element={<ServiceComp />} />
                 <Route path='/blog' element={<Blog_Page />} />
+                {/* <Route path="/blogs/:id" element={<Blog_detail {...data} />} /> */}
                 <Route path='/contact' element={<Contact_page />} />
                 <Route path='/*' element={<Not_found />} />
             </Routes>

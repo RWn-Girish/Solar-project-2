@@ -51,6 +51,40 @@
     width: 100%;
 }
 
+.form-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.submit-btn {
+    background-color: #f9e832;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f60909;
+    color: white;
+}
+
 @media (max-width: 992px) {
     .Contact_page {
         height: 60vh;
