@@ -1,4 +1,3 @@
-import React from "react";
 import ServiceBanner from "./ServiceBanner/ServiceBanner";
 import OurService from "./OurService/OurService";
 import './ServiceComp.css'
@@ -10,7 +9,7 @@ const ServiceComp = () => {
         <>
             <div className="service-bg">
                 <ServiceBanner />
-                <OurService />
+                <OurService />  
                 <OurProcess />
                 <DiscoverComp />
             </div>

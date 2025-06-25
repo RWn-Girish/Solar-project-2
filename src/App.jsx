@@ -7,6 +7,7 @@ import ServiceComp from './Components/Service_Page/ServiceComp';
 import FooterComp from './Components/FooterComp/FooterComp';
 import Blog_Page from './Components/Blog_Page/Blog_Page';
 import Not_found from './Components/Notfound_page/Notfound_page';
+import Contact_page from './Components/Contact_page/Contact_page';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
                 <Route path='/' element={<About />} />
                 <Route path='/service' element={<ServiceComp />} />
                 <Route path='/blog' element={<Blog_Page />} />
+                <Route path='/contact' element={<Contact_page />} />
                 <Route path='/*' element={<Not_found />} />
             </Routes>
             <FooterComp />
