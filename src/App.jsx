@@ -9,6 +9,8 @@ import Blog_Page from './Components/Blog_Page/Blog_Page';
 import Not_found from './Components/Notfound_page/Notfound_page';
 import Contact_page from './Components/Contact_page/Contact_page';
 import Blog_detail from './Components/Blog_Page/Blog_detail/Blog_detail';
+import OurProject from './Components/Project_Page/OurProjects';
+import ProjectCardDetails from './Components/Project_Page/projectCard/projectCard-details';
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
                 <Route path='/service' element={<ServiceComp />} />
                 <Route path='/blog' element={<Blog_Page />} />
                 <Route path="/blogs/:id" element={<Blog_detail />} />
+                <Route path="/ourProjects" element={<OurProject />} />
                 <Route path='/contact' element={<Contact_page />} />
+                <Route path='/projectCard-details' element={<ProjectCardDetails />} />
                 <Route path='/*' element={<Not_found />} />
             </Routes>
             <FooterComp />

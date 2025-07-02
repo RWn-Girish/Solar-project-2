@@ -3,6 +3,7 @@ import "./ServiceBanner.css"
 const ServiceBanner = () => {
     return (
         <>
+            <div className="service-bg">
             <div className="servicebanwrapper">
                 <div className="service-banner" >
                     <div className="container">
@@ -11,6 +12,7 @@ const ServiceBanner = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )

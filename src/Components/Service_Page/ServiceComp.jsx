@@ -7,12 +7,10 @@ import DiscoverComp from "./discoverPower/discoverComp";
 const ServiceComp = () => {
     return (
         <>
-            <div className="service-bg">
                 <ServiceBanner />
                 <OurService />  
                 <OurProcess />
                 <DiscoverComp />
-            </div>
         </>
     )
 }
