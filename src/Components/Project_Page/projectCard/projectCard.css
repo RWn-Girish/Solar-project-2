@@ -1,0 +1,28 @@
+
+.ourProcess-card {
+    color: var(--white-color);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourProcess-card:hover {
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+}
+.ourProcess-card p{
+     font-size: 25px;
+}
+.arrow{
+    text-align: center;
+    font-size: 30px;
+    color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+
+.ourProcess-card:hover .arrow {
+    color:  var(--primary-color);
+}
