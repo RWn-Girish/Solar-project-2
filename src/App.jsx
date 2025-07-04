@@ -24,7 +24,7 @@ function App() {
                 <Route path="/blogs/:id" element={<Blog_detail />} />
                 <Route path="/ourProjects" element={<OurProject />} />
                 <Route path='/contact' element={<Contact_page />} />
-                <Route path='/projectCard-details' element={<ProjectCardDetails />} />
+                <Route path="/projectCard-details/:id" element={<ProjectCardDetails />} />
                 <Route path='/*' element={<Not_found />} />
             </Routes>
             <FooterComp />
