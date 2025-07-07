@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 import { BiRightArrowAlt } from "react-icons/bi";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const ProjectCard = ({ projects }) => {
   return (
