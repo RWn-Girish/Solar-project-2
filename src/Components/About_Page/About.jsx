@@ -4,18 +4,19 @@ import Our_esteemed from "./Our_esteemed/Our_esteemed";
 import Our_clients from "./Our_clients/Our_clients";
 import End_energy from "./End_Energy/End_Energy";
 import Recent_Articles from "./Recent_Articles/Recent_Articles";
-import FooterComp from "../FooterComp/FooterComp";
+import { Container } from "react-bootstrap";
 
 function About() {
     return (
         <>
             <Banner />
-            <Our_services />
-            <Our_esteemed />
-            <Our_clients />
-            <End_energy />
-            <Recent_Articles />
-            {/* <FooterComp /> */}
+            <Container>
+                <Our_services />
+                <Our_esteemed />
+                <Our_clients />
+                <End_energy />
+                <Recent_Articles />
+            </Container>
         </>
     )
 }
