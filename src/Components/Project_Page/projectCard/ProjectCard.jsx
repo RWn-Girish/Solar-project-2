@@ -14,7 +14,7 @@ const ProjectCard = ({ projects }) => {
                             backgroundImage: `url(${project.img})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
-                            minHeight: "250px",
+                            minHeight: "300px",
                             borderRadius: "12px",
                             padding: "20px",
                             position: "relative",
