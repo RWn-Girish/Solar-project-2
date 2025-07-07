@@ -14,7 +14,7 @@ const  HomeServices = () => {
         <div className="homeServices">
             <div className="container">
                 <div className="services-content">
-                    <HomeTitle  title={"| Installation Services"} heading={"Custom Solar Solutions"}/>
+                    <HomeTitle  title={"Installation Services"} heading={"Custom Solar Solutions"}/>
                        <div className="d-flex flex-wrap">
                         <div className="col-12 col-md-6 mb-4 pe-2">
                             <ServiceCard icon={<LuMonitorDot/>} heading={"Energy Monitoring"} desc={"Intelligent Energy Monitoring to Control Costs Effectively"}/>

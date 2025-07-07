@@ -4,7 +4,7 @@
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     position: relative;
     padding: 50px;
@@ -18,9 +18,6 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-}
-
-.home-performance__content {
 }
 .performance-title{
     position: relative;
@@ -54,54 +51,80 @@
     font-weight: 600;
     color: white;
 }
-
+.rating-content{
+    color: var(--white-color);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: relative;
+    z-index: 2;
+}
 .rating-wrapper {
     display: flex;
-    justify-content: center;
     justify-content: space-around;
-    padding: 40px;
+    padding: 20px;
     font-family: sans-serif;
   }
-
+  
+  .rating-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  
   .circle {
     --value: 0;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background: conic-gradient(
-      #2e7d32 calc(var(--value) * 1%), 
+      #02c20c calc(var(--value) * 1%),
+      transparent 0
     );
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
   }
-
+  
   .circle::before {
     content: '';
     width: 65%;
     height: 65%;
-    background: white;
     border-radius: 50%;
     position: absolute;
+    z-index: 1;
   }
-
+  
   .circle span {
     position: absolute;
     font-weight: bold;
     font-size: 1rem;
-    color: #2e7d32;
+    color: var(--secondary-color);
+    z-index: 2;
   }
-
+  
   .label {
     text-align: center;
-    font-weight: 600;
-    margin-top: 8px;
+    font-weight: 700;
+    font-size: 1rem;
   }
-
   .rating-item {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
+  
+  .home-performance_image{
+    position: relative;
+    z-index: 2;
+  } 
+  .home-performance_image img{
+    border-radius: 10px;
+      
+  }
