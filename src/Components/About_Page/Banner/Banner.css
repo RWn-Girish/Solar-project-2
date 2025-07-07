@@ -107,7 +107,7 @@
 
 @media (max-width: 992px) {
     .about-banner {
-        height: 60vh;
+        height: 80vh;
     }
 
     .about-us-box {
@@ -138,12 +138,13 @@
 
 @media (max-width: 768px) {
     .about-banner {
-        height: 50vh;
+        height: 80vh;
     }
 
     .about-us-box {
         font-size: 30px;
-        padding: 20px;
+        padding: 40px;
+
     }
 
     .banner_content {
@@ -163,12 +164,12 @@
 
 @media (max-width: 576px) {
     .about-banner {
-        height: 40vh;
+        height: 80vh;
     }
 
     .about-us-box {
         font-size: 22px;
-        padding: 25px;
+        padding: 30px;
     }
 
     .about_p_text,

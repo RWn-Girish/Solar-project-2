@@ -53,7 +53,7 @@
 
 @media (max-width: 992px) {
     .blog_page {
-        height: 60vh;
+        height: 80vh;
     }
 
     .blog {
@@ -76,22 +76,22 @@
 
 @media (max-width: 768px) {
     .blog_page {
-        height: 50vh;
+        height: 70vh;
     }
 
     .blog {
         font-size: 30px;
-        padding: 20px;
+        padding: 40px;
     }
 }
 
 @media (max-width: 576px) {
     .blog_page {
-        height: 40vh;
+        height: 60vh;
     }
 
     .blog {
         font-size: 22px;
-        padding: 15px;
+        padding: 30px;
     }
 }
