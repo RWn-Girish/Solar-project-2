@@ -1,11 +1,13 @@
-.project-details{
+.project-details {
     color: white;
     padding: 30px;
 }
-.project-details_title h1{
+
+.project-details_title h1 {
     color: var(--secondary-color);
 }
-.project-details{
+
+.project-details {
     background-image: url("../../../assets/images/projectBanner.webp");
     background-size: cover;
     background-attachment: fixed;
@@ -16,7 +18,7 @@
     overflow: hidden;
 }
 
-.project-details::after{
+.project-details::after {
     content: '';
     position: absolute;
     top: 0;
@@ -26,6 +28,7 @@
     background: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
-.batch-title{
+
+.batch-title {
     color: var(--secondary-color);
 }

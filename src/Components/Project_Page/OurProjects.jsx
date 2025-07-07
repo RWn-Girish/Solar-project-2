@@ -5,8 +5,8 @@ import "./ourProjects.css"
 const OurProject = () => {
     return (
         <>
-                    <ProjectBaner/>
-                    <ProjectDetails/> 
+            <ProjectBaner />
+            <ProjectDetails />
         </>
     )
 }

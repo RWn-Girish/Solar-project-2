@@ -9,8 +9,8 @@
     position: relative;
     z-index: 0;
     overflow: hidden;
-
 }
+
 .projectCardDetailes::before {
     content: '';
     position: absolute;
@@ -21,13 +21,15 @@
     background: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
-.detailes-data{
+
+.detailes-data {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     padding: 30px;
     border-radius: 10px;
 }
-.detailes-title{
+
+.detailes-title {
     margin-top: 150px;
     margin-bottom: 50px;
     color: #fff;
@@ -37,15 +39,23 @@
     text-align: center;
 }
 
-.detailsContent{
+.detailsContent {
     color: var(--secondary-color);
     padding: 20px;
 }
-.inerTitle{
+
+.inerTitle {
     display: inline-block;
     font-size: 30px;
     margin-bottom: 10px;
 }
-.inerDesc{
+
+.inerDesc {
     color: #d1d1d1;
+}
+
+.dteiles-banner img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
 }
