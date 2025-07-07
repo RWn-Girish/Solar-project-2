@@ -26,8 +26,8 @@ function Header() {
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>
                                     <Nav className="navigationTabs justify-content-end flex-grow-1 pe-3">
-                                        <Nav.Link href="#action1">Home</Nav.Link>
-                                        <Nav.Link href="/">About Us</Nav.Link>
+                                        <Nav.Link href="/">Home</Nav.Link>
+                                        <Nav.Link href="/about">About Us</Nav.Link>
                                         <Nav.Link href="/service">Services</Nav.Link>
                                         <Nav.Link href="/ourProjects">Our Projects</Nav.Link>
                                         <Nav.Link href="/blog">Blog</Nav.Link>
