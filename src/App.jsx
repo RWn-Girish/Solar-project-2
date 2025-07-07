@@ -11,6 +11,7 @@ import Contact_page from './Components/Contact_page/Contact_page';
 import Blog_detail from './Components/Blog_Page/Blog_detail/Blog_detail';
 import OurProject from './Components/Project_Page/OurProjects';
 import ProjectCardDetails from './Components/Project_Page/projectCard/projectCard-details';
+import HomeComp from './Components/HomeComp/HomeComp';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
         <>
             <Header />
             <Routes>
-                <Route path='/' element={<About />} />
+                <Route path='/' element={<HomeComp />} />
+                <Route path='/about' element={<About />} />
                 <Route path='/service' element={<ServiceComp />} />
                 <Route path='/blog' element={<Blog_Page />} />
                 <Route path="/blogs/:id" element={<Blog_detail />} />
