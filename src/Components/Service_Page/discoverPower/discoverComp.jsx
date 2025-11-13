@@ -25,4 +25,3 @@ const DiscoverComp = () => {
 }
 
 export default DiscoverComp;
-
