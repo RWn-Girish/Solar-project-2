@@ -12,4 +12,5 @@ function Banner_card({ title, image, description }) {
     );
 }
 
+
 export default Banner_card;
