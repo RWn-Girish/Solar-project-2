@@ -1,7 +1,7 @@
 import React from "react";
 import "./DiscoverComp.css";
 
-const DiscoverComp = () => {
+const DiscoverComponent = () => {
     return (
         <>
             <div className="discover">
@@ -25,4 +25,4 @@ const DiscoverComp = () => {
     )
 }
 
-export default DiscoverComp;
+export default DiscoverComponent;
