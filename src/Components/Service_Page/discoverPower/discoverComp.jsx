@@ -1,5 +1,5 @@
 import React from "react";
-import "./discoverComp.css";
+import "./DiscoverComp.css";
 
 const DiscoverComp = () => {
     return (
