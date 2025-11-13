@@ -1,5 +1,6 @@
 import React from "react";
-import './discoverComp.css'
+import '../discoverPower/discoverComp.css';
+
 const DiscoverComp = () => {
     return (
         <>
