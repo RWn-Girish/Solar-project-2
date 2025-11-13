@@ -3,7 +3,6 @@ import phone from "../../../assets/images/phone.png";
 import energy from "../../../assets/images/energy.jpg";
 import "./End_Energy.css";
 
-
 function End_Energy() {
     return (
         <Container className="energy-container">
